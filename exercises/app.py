@@ -8,6 +8,9 @@ import pickle
 from openai.embeddings_utils import cosine_similarity
 from dotenv import load_dotenv
 from tenacity import retry, wait_random_exponential, stop_after_attempt
+from sentence_transformers import SentenceTransformer
+
+model_encoder = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 
 # Load environment variables
@@ -44,11 +47,10 @@ for key, val in params_gathered.items():
 documents = pickle.load(open("documents.pkl", "rb"))
 
 
-@retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(6))
 def get_embedding(text):
     # remove newlines and double spaces
     text = text.replace("\n", " ").replace("  ", " ")
-    return openai.Embedding.create(input=text, engine=EMBEDDING_MODEL)["data"][0]["embedding"]
+    return model_encoder.encode(text)
 
 
 @retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(10))
