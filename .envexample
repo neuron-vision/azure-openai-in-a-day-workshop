@@ -1,4 +1,4 @@
-OPENAI_API_KEY=
+OPENAI_API_KEY=467e9abc30794efba8a696762fd08d7d
 OPENAI_API_BASE=https://neuronvisionws1.openai.azure.com/
 OPENAI_API_REGION=eastus
 
