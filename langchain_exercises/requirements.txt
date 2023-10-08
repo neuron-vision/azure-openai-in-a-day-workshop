@@ -1,0 +1,14 @@
+streamlit
+openai
+python-dotenv
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+tiktoken
+langchain
+faiss-cpu
+ipython
+sentence-transformers
+tqdm
