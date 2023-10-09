@@ -1,17 +1,10 @@
-streamlit
 openai
 python-dotenv
 numpy
 pandas
-matplotlib
-scipy
-scikit-learn
 tenacity
 tiktoken
-llama-index
-langchain
 faiss-cpu
-plotly
 ipython
 sentence-transformers
 tqdm
