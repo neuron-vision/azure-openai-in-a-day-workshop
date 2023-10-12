@@ -12,3 +12,4 @@ faiss-cpu
 ipython
 sentence-transformers
 tqdm
+jupyter
