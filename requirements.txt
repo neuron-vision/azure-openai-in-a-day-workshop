@@ -8,3 +8,5 @@ faiss-cpu
 ipython
 sentence-transformers
 tqdm
+matplotlib
+plotly
