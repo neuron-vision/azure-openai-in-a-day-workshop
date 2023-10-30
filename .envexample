@@ -1,5 +1,5 @@
-OPENAI_API_KEY=467e9abc30794efba8a696762fd08d7d
-OPENAI_API_BASE=https://neuronvisionws1.openai.azure.com/
+OPENAI_API_KEY=8158d342aa794004ae7a016cb6e8033a
+OPENAI_API_BASE=https://handsonoctober.openai.azure.com/
 OPENAI_API_REGION=eastus
 
 OPENAI_API_API_TYPE=azure
