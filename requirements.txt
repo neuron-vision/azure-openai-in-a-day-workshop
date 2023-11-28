@@ -1,11 +1,10 @@
-openai
+openai==0.28
 python-dotenv
 numpy
 pandas
 tenacity
 tiktoken
 faiss-cpu
-ipython
 sentence-transformers
 tqdm
 matplotlib
