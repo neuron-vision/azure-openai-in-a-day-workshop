@@ -1,4 +1,3 @@
-openai==0.28
 python-dotenv
 numpy
 pandas
@@ -9,3 +8,7 @@ sentence-transformers
 tqdm
 matplotlib
 plotly
+langchain==0.0.227
+openai==0.27.8
+wikipedia
+google-search-results
